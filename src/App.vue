@@ -85,6 +85,9 @@ export default {
   .main {
     min-height: calc(100vh - 200px);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .title {
       color : blue;
     }
